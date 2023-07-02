@@ -1,0 +1,18 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.logo-img {
+  width: 300px;
+  height: 175px;
+}
+
+.intro h2 {
+  font-size: 3rem;
+  color: #e51e1e;
+  font-family: monospace;
+}
