@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 .logo-container {
   display: flex;
   justify-content: center;
@@ -6,9 +8,18 @@
   width: auto;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .logo-img {
   width: 300px;
   height: 175px;
+  animation: fadeIn 5s;
 }
 
 .intro h2 {
@@ -17,19 +28,49 @@
   font-family: monospace;
 }
 
-.quiz h2{
-    font-family: monospace;
+.quiz h2 {
+  font-family: monospace;
 }
 
-.quiz p{
-    font-family: monospace;
+.quiz p {
+  font-family: monospace;
 }
 
-.quiz{
-    background-color: #e51e1e;
+.quiz {
+  background-color: #e51e1e;
 }
 
+/* Styling the radio buttons */
+input[type="radio"] {
+  height: 15px;
+  width: 15px;
+  top: 20px;
+  left: 10px;
+}
 
+/* Styling the radio buttons when checked */
+input[type="radio"]:checked {
+  height: 20px;
+  width: 20px;
+  top: 25px;
+  left: 15px;
+}
 
+/* Styling the radio button labels */
+.form-check-label {
+  margin-left: 8px;
+  color: white;
+  font-weight: 10;
+  font-size: 1.2em;
+  padding: 5px 2px 2px 4px;
+  margin: 5px auto;
+  height: 5px;
+  z-index: 8;
+  cursor: pointer;
+}
 
-
+/* Styling the radio button labels when clicked */
+.form-check-label:hover {
+  cursor: pointer;
+  color: #063672;
+}
