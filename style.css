@@ -74,3 +74,26 @@ input[type="radio"]:checked {
   cursor: pointer;
   color: #063672;
 }
+
+.custom-button {
+  background-color: #fff;
+  color: #063672;
+  font-family: monospace;
+  width: 170px;
+  height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #063672;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+
+.custom-button:hover {
+  background: #063672;
+  color: #fff;
+  border: 3px solid #fff;
+}
